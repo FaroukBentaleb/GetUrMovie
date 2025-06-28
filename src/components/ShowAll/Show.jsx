@@ -24,7 +24,7 @@ export function Show(){
                         </div>
                     </div>
                     <div className="flex flex-row flex-wrap text-white justify-center gap-3 sm:pt-5">
-                        {
+                        { filteredMovies.length &&
                             filteredMovies.map((item,key) => (   
                                                             
                                 <li key={key}>
