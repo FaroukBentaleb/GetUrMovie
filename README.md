@@ -6,7 +6,7 @@ Discover your next favorite film with this intuitive movie browsing experience �
 
 ## 🚀 Demo
 
-[Live Demo](link__)
+[Live Demo](https://geturrmovie.netlify.app/)
 
 ## 📂 GitHub
 
