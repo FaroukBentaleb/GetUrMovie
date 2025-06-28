@@ -9,7 +9,7 @@ export function Trend(){
             <h1 className="font-bold text-2xl text-white ml-10">Top Rated Movies</h1>
         <ul>  
     <div className='flex flex-col sm:flex-row flex-wrap gap-5 p-5 w-full justify-center'>
-        { TrendMovies.length &&
+        { TrendMovies && TrendMovies.length > 0 &&
             TrendMovies.slice(0, 5).map((item,key) => (
                 <li key={key}>
                     <div className='flex flex-row w-full sm:w-[15%] min-w-fit justify-center items-center flex-shrink-0'>
