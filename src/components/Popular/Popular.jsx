@@ -8,7 +8,7 @@ export function Popular(){
             <ul>
                 <div className="pt-10 sm:ml-10 ml-2 flex flex-col">
                     <h1 className="font-bold text-2xl text-white">Popular Movies</h1>
-                    <div className="flex flex-row flex-wrap text-white justify-center gap-3 pt-5">s
+                    <div className="flex flex-row flex-wrap text-white justify-center gap-3 pt-5">
                         {PopularMovies && PopularMovies.length > 0 &&
                             PopularMovies.map((item,key) => (   
                                 <Link to={`/Details/${item.id}`}>
