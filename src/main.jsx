@@ -1,9 +1,9 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
 import './index.css';
 import { HomePage } from './pages/HomePage';
 import { MovieDetails } from './pages/movieDetails';
 import { PageNotFound } from './pages/PageNotFound';
+import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 const Router = createBrowserRouter([
   { path: "/", element: <HomePage/> },
